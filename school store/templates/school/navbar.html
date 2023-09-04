@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <style type="text/css">
+    .bs-example {
+      margin: 0px;
+
+    }
+
+    .navbar-brand {
+      font-size: 20px;
+      font-family: sans-serif;
+
+    }
+  </style>
+</head>
+
+<body>
+
+
+
+  <div class="bs-example">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+      <a href="/" class="navbar-brand">School Management</a>
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+        <div class="navbar-nav">
+          <a href="/" class="nav-item nav-link active">Home</a>
+          <a href="/adminclick" class="nav-item nav-link">Signin/signup</a>
+<!--          <a href="/teacherclick" class="nav-item nav-link">Teacher</a>-->
+          <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Course
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="https://en.wikipedia.org/wiki/Bachelor_of_Commerce">Bcom</a>
+          <a class="dropdown-item" href="https://en.wikipedia.org/wiki/BCA">BCA</a>
+          <a class="dropdown-item" href="https://en.wikipedia.org/wiki/Bachelor_of_Business_Administration">BBA</a>
+          <a class="dropdown-item" href="https://en.wikipedia.org/wiki/British_Standard_Whitworth">BSW</a>
+          <a class="dropdown-item" href="https://en.wikipedia.org/wiki/Microbiology">MICROBIOLOGY</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#"></a>
+        </div>
+      </li>
+
+
+
+        </div>
+
+        <div class="navbar-nav">
+          <a href="/aboutus" class="nav-item nav-link">About Us</a>
+<!--          <a href="contactus" class="nav-item nav-link">Contact Us</a>-->
+        </div>
+
+
+
+
+      </div>
+    </nav>
+  </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+<style>
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: grey;
+}
+
+
+    .logout_btn {
+      padding: 5px;
+      background: #19B3D3;
+      text-decoration: none;
+      float: right;
+      margin-top: -30px;
+      margin-right: 40px;
+      border-radius: 2px;
+      font-size: 15px;
+      font-weight: 600;
+      color: #fff;
+      transition: 0.5s;
+
+    }
+
+    .logout_btn:hover {
+      background: #0B87A6;
+    }
+</style>
+</head>
+<body>
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+
+<!--<div class="jumbotron" style="margin-bottom:0px;">-->
+<!--    <header>-->
+<!--<div class="right_area">-->
+<!--      <a href="/logout" class="logout_btn">Logout</a>-->
+<!--</div>-->
+<!--    </header>-->
+  <h1 class="display-4">Hello</h1>
+  <p class="lead">Welcome to School Management System.</p>
+
+  <hr class="my-4">
+  <p>You can register here...</p>
+  <p class="lead">
+      <a class="btn btn-primary btn-lg" href="studentsignup1" role="button">Register</a>
+      <a class="btn btn-primary btn-lg" href="/logout" role="button">Logout</a>
+  </p>
+</div>
+
+    {% block content %}
+    {% endblock content %}
+
+
+    <br><br><br>
+
+  </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+
+
+<!--<form method="post">-->
+<!--    {% csrf_token %}-->
+<!--    {{ form1.as_p }}-->
+<!--    <button type="submit">Submit</button>-->
+<!--</form>-->
+<option value="">---------</option>
+{% for course in courses %}
+<option value="{{ course.id }}">{{ course.name }}</option>
+{% endfor %}
